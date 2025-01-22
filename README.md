@@ -1,6 +1,6 @@
 # Last Digit Analyzer
 
-一个用于分析数据真实性的工具，通过统计数字末位的分布频率来发现可能存在的数据造假。
+一个用于分析数据真实性的工具🔗 [练习读数字](https://zainzeen.github.io/last-digit-analyzer/)，通过统计数字末位的分布频率来发现可能存在的数据造假。
 
 ## 项目简介
 
