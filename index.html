@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数字末位频率分析器</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>数字末位频率分析器</h1>
+        <p class="description">
+            用于分析一组数字中，个位数（最后一位）出现的频率<br>
+            可以帮助发现数据是否可能被人为操纵
+        </p>
+        
+        <div class="input-section">
+            <textarea id="numbers" placeholder="在这里输入数字，数字之间可以用空格、逗号、分号或换行分隔"></textarea>
+            <button id="analyze">分析数据</button>
+            <button id="clear">清空数据</button>
+        </div>
+
+        <div class="results">
+            <h2>分析结果</h2>
+            <div class="chart-container">
+                <div id="chart"></div>
+            </div>
+            <div class="stats">
+                <h3>详细统计</h3>
+                <div id="detailed-stats"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
